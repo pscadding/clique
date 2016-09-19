@@ -11,7 +11,7 @@ from .error import CollectionError
 
 
 #: Pattern for matching an index with optional padding.
-DIGITS_PATTERN = '(?P<index>(?P<padding>0*)\d+)'
+DIGITS_PATTERN = '(?P<index>(?P<padding>\d*)\d+)'
 
 #: Common patterns that can be passed to :py:func:`~clique.assemble`.
 PATTERNS = {
